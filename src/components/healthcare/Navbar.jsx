@@ -6,16 +6,20 @@ import { Popover, Transition } from "@headlessui/react";
 import Amorad from "../../assets/amorad.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Link as ScrollLink  } from "react-scroll";
 const navigation = [
-  { name: "About", href: "/about" },
-  { name: "Features", href: "#" },
-  { name: "Radiologists", href: "#" },
-  { name: "diagnosis centres", href: "#" },
+  { name: "About", to: "about" },
+  { name: "Features", to: "feature" },
+  { name: "Radiologists", to: "radiologist" },
+  { name: "Diagnosis centres", to: "center" },
 ];
 
 export default function Navbar() {
+  const handleSetActive = (to) => {
+    console.log(to);
+  };
   return (
-    <div className="fixed w-full z-10 bg-gray-50 overflow-hidden font-sans">
+    <div className="fixed w-full z-10 bg-gray-50 font-sans">
       <div className="relative py-6">
         <Popover>
           <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
@@ -41,13 +45,19 @@ export default function Navbar() {
               </div>
               <div className="hidden lg:flex lg:space-x-10 md:space-x-4">
                 {navigation.map((item) => (
-                  <Link
+                  <ScrollLink
                     key={item.name}
-                    href={item.href}
+                    activeClass="active" 
+                    to={item.to} 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-50} 
+                    duration={500} 
+                    onSetActive={handleSetActive}
                     className="font-medium text-gray-500 hover:text-gray-900"
                   >
                     {item.name}
-                  </Link>
+                  </ScrollLink>
                 ))}
               </div>
               <div className="hidden lg:absolute lg:flex md:items-center md:justify-end md:inset-y-0 md:right-0 lg:space-x-4 md:space-x-2">
@@ -90,20 +100,26 @@ export default function Navbar() {
                 </div>
                 <div className="px-2 pt-2 pb-3">
                   {navigation.map((item) => (
-                    <Link
-                      key={item.name}
-                      href={item.href}
+                    <ScrollLink
+                    key={item.name}
+                    activeClass="active" 
+                    to={item.to} 
+                    spy={true} 
+                    smooth={true} 
+                    offset={-50} 
+                    duration={500} 
+                    onSetActive={handleSetActive}
                       className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
-                    </Link>
+                    </ScrollLink>
                   ))}
                 </div>
                 <Link
                   href="#"
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                 >
-                  Log in
+                  Get Started
                 </Link>
               </div>
             </Popover.Panel>

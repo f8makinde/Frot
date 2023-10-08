@@ -5,7 +5,7 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <section id="hero" className="flex flex-col justify-center lg:h-screen m-auto text-black font-sans">
-      <div className="container max-w-[1440px] px-4 sm:px-6 flex lg:flex-row flex-col justify-between gap-4 items-center mx-auto">
+      <div className="container max-w-[1440px] px-4 md:py-0 py-12 sm:px-6 flex lg:flex-row flex-col justify-between gap-4 items-center mx-auto">
         <div className="py-24">
           <h1 className="text-4xl xl:text-6xl lg:text-5xl font-bold font-lora xl:leading-widest">
             {/* <span>Connecting Marketing, Advertisement, and Radiology</span>  */}

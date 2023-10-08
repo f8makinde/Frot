@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="w-full bg-gray-100">
+    <div id="about" className="w-full bg-gray-100">
       <section className="flex flex-col justify-center m-auto text-black py-20 font-sans">
         <div className="container max-w-[1200px] px-4 sm:px-6 mx-auto">
           <div className="flex lg:flex-row flex-col justify-between gap-4 items-center">

@@ -6,6 +6,7 @@ import Reports from '../components/healthcare/Reports'
 import Features from '../components/healthcare/Features'
 
 import { Lora, Open_Sans, Poppins } from 'next/font/google'
+import Footer from '@/components/healthcare/Footer'
 
 const open_sans = Open_Sans({
   subsets: ['latin'],
@@ -32,6 +33,7 @@ const HealthCare = () => {
        <About />
        <Reports />
        <Features />
+       <Footer />
     </div>
   )
 }

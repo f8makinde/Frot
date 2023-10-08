@@ -4,7 +4,7 @@ import HeroSection from './HeroSection'
 import About from './AboutSection'
 import Section from './Section'
 import Footer from './Footer'
-import ContactSection from './contact'
+import ContactSection from './Contact'
 
 const Homepage = () => {
   return (

@@ -44,6 +44,9 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="hidden lg:flex lg:space-x-10 md:space-x-4">
+                <Link href="/"         className="font-medium text-gray-500 hover:text-gray-900">
+                   Home 
+                </Link>
                 {navigation.map((item) => (
                   <ScrollLink
                     key={item.name}

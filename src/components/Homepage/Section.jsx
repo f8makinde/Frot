@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section = () => {
   return (
-    <div id='section' className='w-full py-12'>
+    <div className='w-full py-12'>
           <p className='text-3xl font-lora font-bold text-center py-3'>Services</p>
         <div  className="container max-w-[1200px] px-4 sm:px-6 flex flex-wrap gap-6 mx-auto font-sans">
       {/* Marketing Section */}

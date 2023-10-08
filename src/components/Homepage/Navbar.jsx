@@ -44,7 +44,7 @@ export default function Navbar() {
               <div className="flex items-center flex-1 lg:absolute lg:inset-y-0 lg:left-0">
                 <div className="flex items-center justify-between w-full lg:w-auto">
                   <Link href="#">
-                    <span className="sr-only">Workflow</span>
+                    {/* <span className="sr-only">Workflow</span> */}
                     <Image
                       className="h-8 w-auto sm:h-10 object-cover"
                       src={Amorad}
@@ -210,16 +210,17 @@ export default function Navbar() {
 
                   About Us
                   </ScrollLink>
-                  <ScrollLink
+                  <Link
+                   href="#"
                   className="font-medium flex items-center gap-1 relative px-3 py-2 rounded-md text-base text-gray-700 hover:text-gray-900 hover:bg-gray-50 cursor-pointer"
                  
-                  activeClass="active" 
-                  to="section" 
-                  spy={true} 
-                  smooth={true} 
-                  offset={-100} 
-                  duration={500} 
-                  onSetActive={handleSetActive}
+                  // activeClass="active" 
+                  // to="section" 
+                  // spy={true} 
+                  // smooth={true} 
+                  // offset={-100} 
+                  // duration={500} 
+                  // onSetActive={handleSetActive}
                   onMouseEnter={() => setSelect(true)}
                   onMouseLeave={() => setSelect(false)}
                 >
@@ -242,7 +243,7 @@ export default function Navbar() {
                       </ul>
                     </div>
                   )}
-                </ScrollLink>
+                </Link>
                                   <Link
                   href=""
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 cursor-pointer"

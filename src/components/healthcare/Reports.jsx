@@ -15,8 +15,6 @@ const Reports = () => {
     </div>
   );
 };
-// style={{background: "linear-gradient(180deg, #186784 0%, rgba(229, 239, 255, 0.26) 86.22%, rgba(229, 239, 255, 0.00) 100%)"}}
-
 export default Reports;
 
 function Benefits() {
@@ -29,7 +27,7 @@ function Benefits() {
             Revolutionizing Remote Radiology Reports
           </h1>
           <p className="font-sans leading-relaxed">
-            Amorad is an exceptional teleradiology platform that offers a range
+            Frot is an exceptional teleradiology platform that offers a range
             of benefits, making it the best choice for your needs. Our services
             are characterized by speed, accuracy, and on-demand availability. We
             understand the importance of timely reports, which is why we strive
@@ -49,7 +47,7 @@ function Benefits() {
 const timeline = [
   {
     id: 1,
-    content: `AMORAD's platform spans the globe, offering hospitals access to a diverse pool of radiologists, ensuring 24/7 coverage and reducing dependence on local resources`,
+    content: `Frot's platform spans the globe, offering hospitals access to a diverse pool of radiologists, ensuring 24/7 coverage and reducing dependence on local resources`,
     target: "Global Radiologist Network",
     iconBackground: "bg-gray-400",
   },
@@ -69,7 +67,7 @@ const timeline = [
   },
   {
     id: 4,
-    content: `AMORAD's innovative approach reduces the need for full-time, in-house radiologists, optimizing resource allocation for healthcare institutions.`,
+    content: `Frot's innovative approach reduces the need for full-time, in-house radiologists, optimizing resource allocation for healthcare institutions.`,
     target: "Cost-Efficiency",
     iconBackground: "bg-blue-500",
   },
@@ -128,7 +126,7 @@ function Mission() {
         <span className=""> Mission</span>
       </h2>
       <p className="font-sans text-lg">
-        AMORAD's mission is to bridge radiology's workforce gap by connecting
+        Frot's mission is to bridge radiology's workforce gap by connecting
         hospitals with skilled radiologists worldwide, leveraging AI for
         enhanced productivity, ultimately improving patient care through timely
         and accurate diagnoses.
@@ -144,7 +142,7 @@ function Vision() {
         <span className=""> Vision</span>
       </h2>
       <p className="font-sans text-lg">
-        "AMORAD envisions a world where radiology thrives through AI-driven
+        "Frot's envisions a world where radiology thrives through AI-driven
         collaboration, alleviating shortages, and delivering exceptional patient
         care globally."
       </p>

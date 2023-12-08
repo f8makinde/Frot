@@ -9,7 +9,7 @@ import Image from "next/image";
 const Gallery = () => {
   return (
     <div className="my-6">
-      <h1 className="text-2xl font-bold underline text-center"><span className="text-primary">AMORAD </span>Features Gallery</h1>
+      <h1 className="text-2xl font-bold underline text-center"><span className="text-primary">Frot </span>Features Gallery</h1>
       <ImageGallery />
     </div>
   );

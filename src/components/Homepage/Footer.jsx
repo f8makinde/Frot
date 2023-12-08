@@ -51,11 +51,7 @@ const navigation = {
         <div className="max-w-[1440px] mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="sm:grid xl:grid-cols-5 lg:grid-cols-4 xl:gap-8  space-y-8">
             <div className="space-y-8 xl:col-span-2 ">
-              <Image
-                className="h-10"
-                src={Amorad}
-                alt="Company name"
-              />
+            <h1 className="text-3xl font-bold">Frot</h1>
               <p className="text-gray-500 text-base">
                 Making the world a better place through constructing elegant hierarchies.
               </p>

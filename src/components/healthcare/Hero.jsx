@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="text-primary"> Radiological Excellence</span>
           </h1>
           <p className="text-lg font-medium mb-8">
-            Amorad is pioneering the future of teleradiology, delivering
+            Frot is pioneering the future of teleradiology, delivering
             unparalleled, high-quality radiological reports with seamless remote
             access.
           </p>
@@ -32,33 +32,3 @@ const Hero = () => {
 
 export default Hero;
 
-// function Counter() {
-//   return (
-//     <div className="flex items-center text-primary">
-//       {/* <div className="mt-8 text-4xl font-poppins">
-//           <CountUp start={0} end={100} duration={3} />+ 
-//           <p className='font-sans text-base font-semibold text-black'>Radiologists</p>        
-//         </div> */}
-//       <div className="flex justify-center space-x-6 mt-8 md:text-4xl sm:text-3xl text-2xl font-poppins">
-//         <div>
-//           <CountUp end={1500} duration={5} />+
-//           <p className="font-sans text-base font-semibold text-black">
-//             Patients Connected
-//           </p>
-//         </div>
-//         <div>
-//           <CountUp end={500} duration={5} />+
-//           <p className="font-sans text-base font-semibold text-black">
-//             Radiologists Available
-//           </p>
-//         </div>
-//         <div>
-//           <CountUp end={100} duration={5} />+
-//           <p className="font-sans text-base font-semibold text-black">
-//             Hospitals Linked
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

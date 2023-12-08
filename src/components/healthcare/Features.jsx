@@ -49,7 +49,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <Gallery />
+        {/* <Gallery /> */}
       </section>
     </div>
   );

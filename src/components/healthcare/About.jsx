@@ -1,5 +1,5 @@
 import React from "react";
-import amorad from "../../assets/iPhone mini - Dark (2).png";
+import amorad from "../../assets/iPhone 12 Pro - Dark (2).png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,10 +12,10 @@ const About = () => {
             <div className="lg:w-1/2">
               <h1 className="text-4xl font-lora font-bold">
                 <span>About</span>
-                <span className="text-primary"> Amorad</span>
+                <span className="text-primary"> Frot</span>
               </h1>
               <p className="text-gray-600">
-                Amorad is a cutting-edge teleradiology platform designed to
+                Frot is a cutting-edge teleradiology platform designed to
                 address the critical challenges of radiologist shortages and
                 slow medical report processing.
               </p>

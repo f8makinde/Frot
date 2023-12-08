@@ -45,11 +45,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between w-full lg:w-auto">
                   <Link href="#">
                     {/* <span className="sr-only">Workflow</span> */}
-                    <Image
-                      className="h-8 w-auto sm:h-10 object-cover"
-                      src={Amorad}
-                      alt="amorad-logo"
-                    />
+                    <h1 className="text-3xl font-bold">Frot</h1>
                   </Link>
                   <div className="-mr-2 flex items-center lg:hidden">
                     <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-primary hover:text-gray-500 hover:bg-gray-100 outline-none">

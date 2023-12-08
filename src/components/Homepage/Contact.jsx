@@ -48,22 +48,22 @@ export default function ContactSection() {
               <div>
                 <dt className="sr-only">Postal address</dt>
                 <dd>
-                  <p>742 Evergreen Terrace</p>
-                  <p>Springfield, OR 12345</p>
+                  <p>Nigeria</p>
+                  <p>Lekki, Lagos</p>
                 </dd>
               </div>
               <div className="mt-6">
                 <dt className="sr-only">Phone number</dt>
                 <dd className="flex">
                   <FaPhone />
-                  <span className="ml-3">856.242.7343</span>
+                  <span className="ml-3">------</span>
                 </dd>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                    <AiFillMail />
-                  <span className="ml-3">info@amorad.co</span>
+                  <span className="ml-3">info@frot.co</span>
                 </dd>
               </div>
             </dl>

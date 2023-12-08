@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "../../assets/iPhone mini - Dark (3).png"
+import about from "../../assets/iPhone 12 Pro - Dark (1).png"
 const About = () => {
     return (
         <section id="about" className="flex flex-col justify-center m-auto text-black font-sans my-12 bg-gray-100 ">

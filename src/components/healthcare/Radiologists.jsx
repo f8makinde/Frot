@@ -15,7 +15,7 @@ const Radiologists = () => {
               Our <span className="text-primary">Radiologists</span>
             </h1>
             <p className="text-lg text-center">
-              At AMORAD, we understand the critical role that radiologists play
+              At Frot, we understand the critical role that radiologists play
               in healthcare. With the increasing demand for radiology services
               and the integration of AI technology, our platform empowers
               radiologists to excel in their field.
